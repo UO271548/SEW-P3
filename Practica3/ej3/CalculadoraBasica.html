@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <meta name="author" content="Ignacio Gómez Gasch"/>
+    <meta name="descripción" content="Ejercicio 3 - Calculadora Basica con JavaScript"/>   
+    <title>SEW.P3 - Calculadora Basica</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css" />
+    <script src="CalculadoraBasica.js"></script>
+</head>
+
+<body>    
+    <h1>Calculadora - Básica</h1>
+    <main>
+        <label for="pantalla" hidden></label>
+        <input type="text" value ="" name="display" id="pantalla" disabled/>
+        
+        <p>
+            <input type="button" name="Recuperar memoria" value="mrc" onclick="calculadoraBasica.mrc()"/>
+            <input type="button" name="Restar memoria" value="m-" onclick="calculadoraBasica.mMinus()"/>
+            <input type="button" name="Sumar memoria" value="m+" onclick="calculadoraBasica.mPlus()"/>
+            <input type="button" name="Division" value="/" onclick="calculadoraBasica.dividir()"/>
+
+            <input type="button" name="7" value="7" onclick="calculadoraBasica.numero(7)"/>
+            <input type="button" name="8" value="8" onclick="calculadoraBasica.numero(8)"/>
+            <input type="button" name="9" value="9" onclick="calculadoraBasica.numero(9)"/>
+            <input type="button" name="Multiplicar" value=" * " onclick="calculadoraBasica.multiplicar()"/>
+
+            <input type="button" name="4" value="4" onclick="calculadoraBasica.numero(4)"/>
+            <input type="button" name="5" value="5" onclick="calculadoraBasica.numero(5)"/>
+            <input type="button" name="6" value="6" onclick="calculadoraBasica.numero(6)"/>
+            <input type="button" name="Restar" value=" - " onclick="calculadoraBasica.restar()"/>
+
+            <input type="button" name="1" value="1" onclick="calculadoraBasica.numero(1)"/>
+            <input type="button" name="2" value="2" onclick="calculadoraBasica.numero(2)"/>
+            <input type="button" name="3" value="3" onclick="calculadoraBasica.numero(3)"/>
+            <input type="button" name="Sumar" value="+" onclick="calculadoraBasica.sumar()"/>
+
+            <input type="button" name="0" value="0" onclick="calculadoraBasica.numero(0)"/>
+            <input type="button" name="Punto" value="." onclick="calculadoraBasica.punto()"/>
+            <input type="button" name="Borrar" value="C" onclick="calculadoraBasica.borrarPantalla()"/>
+            <input type="button" name="Igual" value="=" onclick="calculadoraBasica.calcular()"/>
+        </p>
+
+    </main>
+    <footer>
+        <p>Gómez Gasch Ignacio - UO271548</p>
+    </footer>
+</body>
+</html>

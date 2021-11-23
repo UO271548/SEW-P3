@@ -1,0 +1,9 @@
+table, th, td{  
+    border-style: double;
+    text-align: center;
+} 
+/* Especificidad 001*/  
+th{ 
+    background-color: yellow;
+    color:black;
+}

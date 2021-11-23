@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+        <meta name="author" content="Ignacio Gómez Gasch"/>
+        <meta name="descripción" content="Ejercicio 7 - jQuery"/>   
+        <title>SEW.P3 - jQuery</title>
+        <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="Ejercicio7.js"></script>
+    </head>
+
+    <body>
+        <h1>Ejercicio 7</h1>
+        <input type="button" value="Ocultar/Desocultar H1" onclick="metodosJQuery.ocultarInformacionH1()"/>
+
+        <h2>Titulo 2 - Ocultar/Desocultar </h2>
+        <input type="button" value="Ocultar/Desocultar H2" onclick="metodosJQuery.ocultarInformacionH2()"/>
+
+        <h3>Titulo 3 - Ocultar/Desocultar </h3>
+        <input type="button" value="Ocultar/Desocultar H3" onclick="metodosJQuery.ocultarInformacionH3()"/>
+
+        <p>Texto a Ocultar</p>
+        <input type="button" value="Ocultar/Desocultar Texto" onclick="metodosJQuery.ocultarInformacionP()"/>
+
+        <section>
+            <p>Texto a cambiar</p>
+            <input type="text" value="textoPrueba" id="textoCambio"/>
+            <input type="button" value="Cambiar Texto" name="cambiaTexto" onclick="metodosJQuery.cambiarTexto()"/> 
+        </section>
+        
+        <section>
+
+        </section>
+        <p>
+            <input type="button" value="Añade Html" name="aniadeHtml" onclick="metodosJQuery.aniadeHtml()"/> 
+        </p>
+        <section>
+            <p>Parrafo a borrar</p>
+            <input type="button" value="Borra Html" name="borraHtml" onclick="metodosJQuery.borraHtml()"/> 
+        </section>
+        <p>
+            <input type="button" value="Recorrer Html" name="recorrerHtml" onclick="metodosJQuery.recorrerHtml()"/>
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>C1</th>
+                    <th>C2</th>
+                    <th>C3</th>
+                    <th>C4</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+        <input type="button" value="Sumar Columnas" name="sumarColumnasTabla" onclick="metodosJQuery.sumarColumnasTabla()"/>
+        <input type="button" value="Sumar Filas" name="sumarFilasTabla" onclick="metodosJQuery.sumarFilasTabla()"/>
+    </body>
+</html>

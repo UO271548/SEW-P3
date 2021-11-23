@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <meta name="author" content="Ignacio Gómez Gasch"/>
+    <meta name="descripción" content="Ejercicio 4 - CalculadoraCientifica con JavaScript"/>   
+    <title>SEW.P3 - Calculadora Cientifica</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
+    <script src="CalculadoraCientifica.js"></script>
+</head>
+
+<body>    
+    <h1>Calculadora - Cientifica</h1>
+    <main>
+        <input type="text" value ="" name="display" id="pantalla" disabled/>
+        <p>
+        <input type="button" name="Borrar memoria" value=" mc " onclick="calculadoraCientifica.mc()"/>
+        <input type="button" name="Recuperar memoria" value=" mrc " onclick="calculadoraCientifica.mrc()"/>
+        <input type="button" name="Restar memoria" value=" m- " onclick="calculadoraCientifica.mMinus()"/>
+        <input type="button" name="Sumar memoria" value=" m+ " onclick="calculadoraCientifica.mPlus()"/>
+        <input type="button" name="Division" value="/" onclick="calculadoraCientifica.dividir()"/>
+
+        <input type="button" name="Cuadrado" value="x^2" onclick="calculadoraCientifica.cuadrado()"/>
+        <input type="button" name="Potencia" value="x^y" onclick="calculadoraCientifica.potencia()"/>
+        <input type="button" name="Seno" value="sin" onclick="calculadoraCientifica.sin()"/>
+        <input type="button" name="Coseno" value="cos" onclick="calculadoraCientifica.cos()"/>
+        <input type="button" name="Tangente" value="tan" onclick="calculadoraCientifica.tan()"/>
+
+        <input type="button" name="Raiz" value="√" onclick="calculadoraCientifica.raiz()"/>
+        <input type="button" name="PotenciaDiez" value="10^x" onclick="calculadoraCientifica.potenciaDiez()"/>
+        <input type="button" name="Logaritmo" value="log" onclick="calculadoraCientifica.log()"/>
+        <input type="button" name="Exponente" value="Exp" onclick="calculadoraCientifica.exp()"/>
+        <input type="button" name="Modulo" value="Mod" onclick="calculadoraCientifica.mod()"/>
+
+        <input type="button" name="fraccion" value="1/x" onclick="calculadoraCientifica.fraccion()"/>
+        <input type="button" name="C" value="C" onclick="calculadoraCientifica.c()"/>
+        <input type="button" name="CE" value="CE" onclick="calculadoraCientifica.ce()"/>
+        <input type="button" name="Borrar" value="---" onclick="calculadoraCientifica.borrarUno()"/>
+        <input type="button" name="Division" value="/" onclick="calculadoraCientifica.dividir()"/>
+
+        <input type="button" name="pi" value="π" onclick="calculadoraCientifica.pi()"/>
+        <input type="button" name="7" value="7" onclick="calculadoraCientifica.numero(7)"/>
+        <input type="button" name="8" value="8" onclick="calculadoraCientifica.numero(8)"/>
+        <input type="button" name="9" value="9" onclick="calculadoraCientifica.numero(9)"/>
+        <input type="button" name="Multiplicar" value=" * " onclick="calculadoraCientifica.multiplicar()"/>
+
+        <input type="button" name="factorial" value="n!" onclick="calculadoraCientifica.pi()"/>
+        <input type="button" name="4" value="4" onclick="calculadoraCientifica.numero(4)"/>
+        <input type="button" name="5" value="5" onclick="calculadoraCientifica.numero(5)"/>
+        <input type="button" name="6" value="6" onclick="calculadoraCientifica.numero(6)"/>
+        <input type="button" name="Restar" value=" - " onclick="calculadoraCientifica.restar()"/>
+
+        <input type="button" name="masMenos" value="±" onclick="calculadoraCientifica.masMenos()"/>
+        <input type="button" name="1" value="1" onclick="calculadoraCientifica.numero(1)"/>
+        <input type="button" name="2" value="2" onclick="calculadoraCientifica.numero(2)"/>
+        <input type="button" name="3" value="3" onclick="calculadoraCientifica.numero(3)"/>
+        <input type="button" name="Sumar" value="+" onclick="calculadoraCientifica.sumar()"/>
+
+        <input type="button" name="parentesisIzq" value="(" onclick="calculadoraCientifica.parentesisIzq()"/>
+        <input type="button" name="parentesisDrch" value=")" onclick="calculadoraCientifica.parentesisDrch()"/>
+        <input type="button" name="0" value="0" onclick="calculadoraCientifica.numero(0)"/>
+        <input type="button" name="coma" value="," onclick="calculadoraCientifica.coma()"/>
+        <input type="button" name="Igual" value="=" onclick="calculadoraCientifica.calcular()"/>
+        </p>
+
+    </main>
+    <footer>
+        <p>Gómez Gasch Ignacio - UO271548</p>
+    </footer>
+</body>
+</html>
