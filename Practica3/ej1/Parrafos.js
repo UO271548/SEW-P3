@@ -1,9 +1,0 @@
-document.write("<p>");
-document.write(cabeceraAsignatura.cursoActual);
-document.write("</p>");
-document.write("<p>");
-document.write(cabeceraAsignatura.nombreEstudiante);
-document.write("</p>");
-document.write("<p>");
-document.write(cabeceraAsignatura.email);
-document.write("</p>");
