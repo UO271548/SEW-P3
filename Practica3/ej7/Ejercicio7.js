@@ -72,7 +72,7 @@ class MetodosJQuery{
 
     aniadeHtml(){
         $(document).ready(function(){
-            $("section:nth-of-type(2)").html("<p> Parrafo Añadido </p>");
+            $("section:nth-of-type(2)").html( $("section:nth-of-type(2)").html() + "<p> Parrafo Añadido </p>");
         });
     }
 

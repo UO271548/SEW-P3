@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <meta name="author" content="Ignacio Gómez Gasch"/>
+    <meta name="descripción" content="Ejercicio 5 - Calculadora RPN con JavaScript"/>   
+    <title>SEW.P3 - Calculadora RPN</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
+    <script src="CalculadoraRPN.js"></script>
+</head>
+
+<body>    
+    <header>
+        <h1>Calculadora - RPN</h1>
+    </header>
+    <main>
+        <ul>
+            <li></li>
+        </ul>
+        <label for="pantalla" hidden>Calculadora</label>
+        <input type="text" value ="0" name="display" id="pantalla" disabled/>
+        
+        <p>
+            <input type="button" name="Recuperar memoria" value=" mrc " onclick="calculadoraRPN.mrc()"/>
+            <input type="button" name="Restar memoria" value=" m- " onclick="calculadoraRPN.mMinus()"/>
+            <input type="button" name="Sumar memoria" value=" m+ " onclick="calculadoraRPN.mPlus()"/>
+            <input type="button" name="Arco Seno" value="asen" onclick="calculadoraRPN.asin()"/>
+            <input type="button" name="Arco Coseno" value="acos" onclick="calculadoraRPN.acos()"/>
+            <input type="button" name="Arco Tangente" value="atan" onclick="calculadoraRPN.atan()"/>
+
+            <input type="button" name="Cuadrado" value="x^2" onclick="calculadoraRPN.cuadrado()"/>
+            <input type="button" name="Potencia" value="x^y" onclick="calculadoraRPN.potencia()"/>
+            <input type="button" name="Seno" value="sin" onclick="calculadoraRPN.sin()"/>
+            <input type="button" name="Coseno" value="cos" onclick="calculadoraRPN.cos()"/>
+            <input type="button" name="Tangente" value="tan" onclick="calculadoraRPN.tan()"/>
+
+            <input type="button" name="Raiz" value="√" onclick="calculadoraRPN.raiz()"/>
+            <input type="button" name="PotenciaDiez" value="10^x" onclick="calculadoraRPN.potenciaDiez()"/>
+            <input type="button" name="Logaritmo" value="log" onclick="calculadoraRPN.log()"/>
+            <input type="button" name="Exponente" value="Exp" onclick="calculadoraRPN.exp()"/>
+            <!--
+            <input type="button" name="Modulo" value="Mod" onclick="calculadoraRPN.mod()"/>
+            -->
+            <input type="button" name="fraccion" value="1/x" onclick="calculadoraRPN.fraccion()"/>
+            <input type="button" name="e" value="e" onclick="calculadoraCientifica.e()"/>
+            <input type="button" name="C" value="C" onclick="calculadoraRPN.c()"/>
+            <input type="button" name="CE" value="CE" onclick="calculadoraRPN.borrarPantalla()"/>
+            <input type="button" name="Division" value="/" onclick="calculadoraRPN.dividir()"/>
+
+            <input type="button" name="pi" value="π" onclick="calculadoraRPN.pi()"/>
+            <input type="button" name="7" value="7" onclick="calculadoraRPN.numero(7)"/>
+            <input type="button" name="8" value="8" onclick="calculadoraRPN.numero(8)"/>
+            <input type="button" name="9" value="9" onclick="calculadoraRPN.numero(9)"/>
+            <input type="button" name="Multiplicar" value=" * " onclick="calculadoraRPN.multiplicar()"/>
+
+            <input type="button" name="factorial" value="n!" onclick="calculadoraRPN.factorial()"/>
+            <input type="button" name="4" value="4" onclick="calculadoraRPN.numero(4)"/>
+            <input type="button" name="5" value="5" onclick="calculadoraRPN.numero(5)"/>
+            <input type="button" name="6" value="6" onclick="calculadoraRPN.numero(6)"/>
+            <input type="button" name="Restar" value=" - " onclick="calculadoraRPN.restar()"/>
+
+            <input type="button" name="masMenos" value="±" onclick="calculadoraRPN.masMenos()"/>
+            <input type="button" name="1" value="1" onclick="calculadoraRPN.numero(1)"/>
+            <input type="button" name="2" value="2" onclick="calculadoraRPN.numero(2)"/>
+            <input type="button" name="3" value="3" onclick="calculadoraRPN.numero(3)"/>
+            <input type="button" name="Sumar" value="+" onclick="calculadoraRPN.sumar()"/>
+
+
+            <input type="button" name="0" value="0" onclick="calculadoraRPN.numero(0)"/>
+            <input type="button" name="coma" value="." onclick="calculadoraRPN.punto()"/>
+            <input type="button" name="Enter" value="ENTER" onclick="calculadoraRPN.calcular()"/>
+        </p>
+       
+
+    </main>
+    <footer>
+        <p>Gómez Gasch Ignacio - UO271548</p>
+    </footer>
+</body>
+</html>

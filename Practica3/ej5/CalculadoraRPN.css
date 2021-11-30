@@ -1,0 +1,123 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 1.5em;
+    padding: 1.5em;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    margin: 1.5em;
+    padding: 0em;
+    background-color: lightgray;
+    color: black;
+
+}
+
+ul li{
+    list-style: none;
+    text-align: right;
+}
+
+
+main p{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0.15em;
+    margin: 0em;
+    text-align: center;
+}
+
+input[type= "text"]{
+    text-align: right;
+    background-color: lightgray;
+    color: black;
+}
+input[type = "button"]{
+    height: 3em;
+}
+
+input[type = "button"]:nth-of-type(22){
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+input[type = "button"]:nth-of-type(23){
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+input[type = "button"]:nth-of-type(24){
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+input[type = "button"]:nth-of-type(27){
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+input[type = "button"]:nth-of-type(28){
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+input[type = "button"]:nth-of-type(29){
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+
+input[type = "button"]:nth-of-type(32){
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+input[type = "button"]:nth-of-type(33){
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+input[type = "button"]:nth-of-type(34){
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+input[type = "button"]:nth-of-type(38){
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    display: block;
+    color: white;
+    background-color: black;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 1em;
+    font-weight:bold;
+    margin-block-start: 1em;
+
+  }

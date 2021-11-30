@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <meta name="author" content="Ignacio Gómez Gasch"/>
+    <meta name="descripción" content="Ejercicio 6 - Calculadora Energética"/>   
+    <title>SEW.P3 - Calculadora Energética</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraEnergetica.css" />
+    <script src="CalculadoraEnegetica.js"></script>
+</head>
+
+<body>    
+    <header>
+        <h1>Calculadora - Energética</h1>
+    </header>
+    <main>
+        <ul>
+            <li></li>
+        </ul>
+        <label for="pantalla" hidden>Calculadora</label>
+        <input type="text" value ="0" name="display" id="pantalla" disabled/>
+        
+        <label for="vatios">Introduzaca la potencia den Vatios:</label>
+        <input type="text" value ="" name="display" id="vatios" />
+
+        <label for="aparatos">Introduzaca el numero de aparatos con dicha potencia:</label>
+        <input type="text" value ="" name="display" id="aparatos"/>
+
+        <label for="precio">Introduzaca el precio actual del kilovatio/hora</label>
+        <input type="text" value ="" name="display" id="precio"/>
+
+        <input type="button" name="Enter" value="Enter" onclick="calculadoraEnergetica.calcular()"/>
+        <input type="button" name="Calcular Factura" value="Calcular Factura" onclick="calculadoraEnergetica.hacerFactura()"/>
+
+       
+
+    </main>
+    <footer>
+        <p>Gómez Gasch Ignacio - UO271548</p>
+    </footer>
+</body>
+</html>

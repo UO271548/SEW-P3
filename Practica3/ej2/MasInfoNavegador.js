@@ -1,19 +1,19 @@
-document.write("<p>Versión: ");
-document.write(navegador.version);
+document.getElementsByTagName("p")[0].innerHTML = "<p>Versión: ";
+document.getElementsByTagName("p")[0].innerHTML += navegador.version;
+document.getElementsByTagName("p")[0].innerHTML += "</p>";
+
+document.getElementsByTagName("p")[0].innerHTML += "<p>Plataforma: ";
+document.getElementsByTagName("p")[0].innerHTML += navegador.plataforma;
+document.getElementsByTagName("p")[0].innerHTML += "</p>";
+
+document.getElementsByTagName("p")[0].innerHTML += "<p>Vendedor: ";
+document.getElementsByTagName("p")[0].innerHTML += navegador.vendedor;
+document.getElementsByTagName("p")[0].innerHTML += "</p>";
+
+document.getElementsByTagName("p")[0].innerHTML += "<p>Agente: ";
+document.getElementsByTagName("p")[0].innerHTML += navegador.agente;
 document.write("</p>");
 
-document.write("<p>Plataforma: ");
-document.write(navegador.plataforma);
-document.write("</p>");
-
-document.write("<p>Vendedor: ");
-document.write(navegador.vendedor);
-document.write("</p>");
-
-document.write("<p>Agente: ");
-document.write(navegador.agente);
-document.write("</p>");
-
-document.write("<p>Java: ");
-document.write(navegador.java);
-document.write("</p>");
+document.getElementsByTagName("p")[0].innerHTML += "<p>Java: ";
+document.getElementsByTagName("p")[0].innerHTML += navegador.java;
+document.getElementsByTagName("p")[0].innerHTML += "</p>";

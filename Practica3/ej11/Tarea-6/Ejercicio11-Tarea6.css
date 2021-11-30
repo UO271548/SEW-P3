@@ -1,11 +1,13 @@
-table, th, td{  
-    border-style: double;
-    text-align: center;
-} 
-/* Especificidad 001*/  
-th{ 
-    background-color: yellow;
-    color:black;
+main {
+
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 100%;
+
+    
 }
 
   /*Especificidad: 001*/
@@ -88,12 +90,4 @@ th{
     font-size: 1em;
     font-weight:bold;
     margin-block-start: 0.7em;
-  }
-
-  /*Especificidad: 001*/
-  main{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: 1100px;
   }

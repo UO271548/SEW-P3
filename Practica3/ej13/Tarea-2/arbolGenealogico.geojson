@@ -1,0 +1,410 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.84618,
+            43.36998,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Ignacio Gomez Gasch",
+          "description": "Estudiante en Ingeneria Informatica"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.85988,
+            43.35414,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Antonio Gomez Fernandez",
+          "description": "Estudio Biologia"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.61134,
+            43.27164,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Antonio Gomez Garcia",
+          "description": "Era fan del Real Oviedo"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.82318,
+            43.38615,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fallecimiento:Antonio Gomez Garcia",
+          "description": "Era fan del Real Oviedo"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.62368,
+            43.27619,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Antonio Gomez Lopez",
+          "description": "Era policia"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.85029,
+            43.35967,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fallecimiento:Antonio Gomez Lopez",
+          "description": "Era policia"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.84679,
+            43.37005,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Maria Garcia Iglesias",
+          "description": "Prueba"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.87309,
+            43.36922,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fallecimiento:Maria Garcia Iglesias",
+          "description": "Prueba"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.83758,
+            43.35294,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Covadonga Fernández Barro",
+          "description": "Vivio en Guatemala"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.86384,
+            43.35208,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fallecimiento:Covadonga Fernández Barro",
+          "description": "Vivio en Guatemala"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.71714,
+            43.16684,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Juan Fernandez Lopez",
+          "description": "Le gustaba el ajedrez"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.78611,
+            43.19739,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fallecimiento:Juan Fernandez Lopez",
+          "description": "Le gustaba el ajedrez"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.86369,
+            43.3564,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Maria Barro Suarez",
+          "description": "Tenia 7 hermanos"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.8124,
+            43.39475,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fallecimiento:Maria Barro Suarez",
+          "description": "Tenia 7 hermanos"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.85832,
+            43.37132,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Marina Gasch Nieto",
+          "description": "Estudio Magisterio"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.80556,
+            43.3731,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Victor Gasch Hevia",
+          "description": "Trabajo en un periodico"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.86613,
+            43.3802,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fallecimiento:Victor Gasch Hevia",
+          "description": "Trabajo en un periodico"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.85685,
+            43.33722,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Manuel Gasch Perez",
+          "description": "Le gustaba el futbol"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.77429,
+            43.35214,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fallecimiento:Manuel Gasch Perez",
+          "description": "Le gustaba el futbol"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.81067,
+            43.33766,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Marta Heiva Garcia",
+          "description": "Leia mucho"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.90326,
+            43.36919,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fallecimiento:Marta Heiva Garcia",
+          "description": "Leia mucho"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.85197,
+            43.34894,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Marina Nieto Echevarría",
+          "description": "Trabajo en una costureria"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.89154,
+            43.39298,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fallecimiento:Marina Nieto Echevarría",
+          "description": "Trabajo en una costureria"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.37836,
+            39.47056,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Francisco Nieto Gutierrez",
+          "description": "Le gustaba la pesca"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.83424,
+            43.41038,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fallecimiento:Francisco Nieto Gutierrez",
+          "description": "Le gustaba la pesca"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.92945,
+            43.26155,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Nacimeinto:Laura Echevarria Lopez",
+          "description": "Era muy alegre"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.82085,
+            43.34825,
+            0
+          ]
+        },
+        "properties": {
+          "name": "Fallecimiento:Laura Echevarria Lopez",
+          "description": "Era muy alegre"
+        }
+      }
+    ]
+  }

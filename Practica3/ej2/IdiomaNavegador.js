@@ -1,3 +1,1 @@
-document.write("<h2>Idioma: ");
-document.write(navegador.idioma);
-document.write("</h2>");
+document.getElementsByTagName("h2")[0].innerText = navegador.idioma;
