@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE personas SYSTEM "arbol.dtd">-->
+<personas xsi:schemaLocation="http://www.uniovi.es arbol.xsd" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.uniovi.es">
+    <persona nombre="Ignacio" apellidos="Gomez Gasch" fechaNacimiento="1999-08-12" lugarNacimiento="Oviedo">
+		<datos>
+			<comentariosSobrePersona>Estudiante en Ingeneria Informatica</comentariosSobrePersona>
+			<cordenadasGeograficas>
+				<latitud>43.36998</latitud>
+				<longitud>-5.84618</longitud>
+				<altitud>232</altitud>
+			</cordenadasGeograficas>
+			<imagenes>
+				<imagen url = "Yo.jpg"></imagen>
+			</imagenes>
+			<videos>
+				<video url = "Yo.mp4"></video>
+			</videos>
+		</datos>
+        <!--Padre-->
+        <persona nombre= "Antonio" apellidos="Gomez Fernandez" fechaNacimiento="1965-11-12" lugarNacimiento="Oviedo">
+			<datos>
+				<comentariosSobrePersona>Estudio Biologia</comentariosSobrePersona>
+				<cordenadasGeograficas>
+					<latitud>43.35414</latitud>
+					<longitud>-5.85988</longitud>
+					<altitud>250</altitud>
+				</cordenadasGeograficas>
+				<imagenes>
+					<imagen url = "multimedia/Padre.jpg"></imagen>
+				</imagenes>
+			</datos>
+            <!--Abuelo Paterno-->
+            <persona nombre= "Antonio" apellidos="Gomez Garcia" fechaNacimiento="1926-05-27" lugarNacimiento="Pola de Allande">
+				<datos>
+					<comentariosSobrePersona>Era fan del Real Oviedo</comentariosSobrePersona>
+					<cordenadasGeograficas>
+						<latitud>43.27164</latitud>
+						<longitud>-6.61134</longitud>
+						<altitud>232</altitud>
+					</cordenadasGeograficas>
+					<informacionDeFallecimiento fechaDefallecimiento = "2012-03-20" lugarDefallecimiento = "Oviedo">
+						<cordenadasGeograficas>
+							<latitud>43.38615</latitud>
+							<longitud>-5.82318</longitud>
+							<altitud>232</altitud>
+						</cordenadasGeograficas>
+					</informacionDeFallecimiento>
+					<imagenes>
+					<imagen url = "multimedia/Abuelo_Paterno.jpg"></imagen>
+				</imagenes>
+				</datos>
+				<!--Bisabuelo Abuelo Paterno-->
+				<persona nombre= "Antonio" apellidos="Gomez Lopez" fechaNacimiento="1880-04-18" lugarNacimiento="Pola de Allande">
+					<datos>
+						<comentariosSobrePersona>Era policia</comentariosSobrePersona>
+						<cordenadasGeograficas>
+							<latitud>43.27619</latitud>
+							<longitud>-6.62368</longitud>
+							<altitud>232</altitud>
+						</cordenadasGeograficas>
+						<informacionDeFallecimiento fechaDefallecimiento = "1960-03-12" lugarDefallecimiento = "Oviedo">
+							<cordenadasGeograficas>
+								<latitud>43.35967</latitud>
+								<longitud>-5.85029</longitud>
+								<altitud>232</altitud>
+							</cordenadasGeograficas>
+						</informacionDeFallecimiento>
+						<imagenes>
+							<imagen url = "multimedia/Bisabuelo_Abuelo_Paterno.jpg"></imagen>
+						</imagenes>
+					</datos>
+				</persona>
+				<!--Bisabuela Abuelo Paterno-->
+				<persona nombre= "Maria" apellidos="Garcia Iglesias" fechaNacimiento="1881-01-20" lugarNacimiento="Oviedo">
+					<datos>
+						<comentariosSobrePersona>Prueba</comentariosSobrePersona>
+						<cordenadasGeograficas>
+							<latitud>43.37005</latitud>
+							<longitud>-5.84679</longitud>
+							<altitud>232</altitud>
+						</cordenadasGeograficas>
+						<informacionDeFallecimiento fechaDefallecimiento = "1962-09-09" lugarDefallecimiento = "Oviedo">
+							<cordenadasGeograficas>
+								<latitud>43.36922</latitud>
+								<longitud>-5.87309</longitud>
+								<altitud>232</altitud>
+							</cordenadasGeograficas>
+						</informacionDeFallecimiento>
+						<imagenes>
+							<imagen url = "multimedia/Bisabuela_Abuelo_Paterno.jpg"></imagen>
+						</imagenes>
+					</datos>
+				</persona>
+            </persona>
+
+            <!--Abuela Paterna-->
+            <persona nombre= "Covadonga" apellidos="Fernández Barro" fechaNacimiento="1928-05-07" lugarNacimiento="Oviedo">
+				<datos>
+					<comentariosSobrePersona>Vivio en Guatemala</comentariosSobrePersona>
+					<cordenadasGeograficas>
+						<latitud>43.35294</latitud>
+						<longitud>-5.83758</longitud>
+						<altitud>232</altitud>
+					</cordenadasGeograficas>
+					<informacionDeFallecimiento fechaDefallecimiento = "2014-01-27" lugarDefallecimiento = "Oviedo">
+						<cordenadasGeograficas>
+							<latitud>43.35208</latitud>
+							<longitud>-5.86384</longitud>
+							<altitud>232</altitud>
+						</cordenadasGeograficas>
+					</informacionDeFallecimiento>
+					<imagenes>
+						<imagen url = "multimedia/Abuela_Paterna.jpg"></imagen>
+					</imagenes>
+				</datos>
+				<!--Bisabuelo Abuela Paterna-->
+				<persona nombre= "Victor" apellidos="Gasch Hevia" fechaNacimiento="1883-04-03" lugarNacimiento="Oviedo">
+					<datos>
+						<comentariosSobrePersona>Le gustaba el ajedrez</comentariosSobrePersona>
+						<cordenadasGeograficas>
+							<latitud>43.16684</latitud>
+							<longitud>-5.71714</longitud>
+							<altitud>232</altitud>
+						</cordenadasGeograficas>
+						<informacionDeFallecimiento fechaDefallecimiento = "1958-06-08" lugarDefallecimiento = "Oviedo">
+							<cordenadasGeograficas>
+								<latitud>43.19739</latitud>
+								<longitud>-5.78611</longitud>
+								<altitud>232</altitud>
+							</cordenadasGeograficas>
+						</informacionDeFallecimiento>
+						<imagenes>
+							<imagen url = "multimedia/Bisabuelo_Abuela_Paterna.jpg"></imagen>
+						</imagenes>
+					</datos>
+				</persona>
+				<!--Bisabuela Abuela Paterna-->
+				<persona nombre= "Victor" apellidos="Gasch Hevia" fechaNacimiento="1885-07-02" lugarNacimiento="Oviedo">
+					<datos>
+						<comentariosSobrePersona>Tenia 7 hermanos</comentariosSobrePersona>
+						<cordenadasGeograficas>
+							<latitud>43.35640</latitud>
+							<longitud>-5.86369</longitud>
+							<altitud>232</altitud>
+						</cordenadasGeograficas>
+						<informacionDeFallecimiento fechaDefallecimiento = "1963-04-07" lugarDefallecimiento = "Oviedo">
+							<cordenadasGeograficas>
+								<latitud>43.39475</latitud>
+								<longitud>-5.81240</longitud>
+								<altitud>232</altitud>
+							</cordenadasGeograficas>
+						</informacionDeFallecimiento>
+						<imagenes>
+							<imagen url = "multimedia/Bisabuela_Abuela_Paterna.jpg"></imagen>
+						</imagenes>
+					</datos>
+				</persona>
+            </persona>
+        </persona>
+
+        <!--Madre-->
+        <persona nombre= "Marina" apellidos="Gasch Nieto" fechaNacimiento="1966-07-21" lugarNacimiento="Oviedo">
+			<datos>
+				<comentariosSobrePersona>Estudio Magisterio</comentariosSobrePersona>
+				<cordenadasGeograficas>
+					<latitud>43.37132</latitud>
+					<longitud>-5.85832</longitud>
+					<altitud>232</altitud>
+				</cordenadasGeograficas>
+				<imagenes>
+					<imagen url = "multimedia/Madre.jpg"></imagen>
+				</imagenes>
+            </datos>
+            <!--Abuelo Materno-->
+            <persona nombre= "Victor" apellidos="Gasch Hevia" fechaNacimiento="1924-03-04" lugarNacimiento="Oviedo">
+				<datos>
+					<comentariosSobrePersona>Trabajo en un periodico</comentariosSobrePersona>
+					<cordenadasGeograficas>
+						<latitud>43.37310</latitud>
+						<longitud>-5.80556</longitud>
+						<altitud>232</altitud>
+					</cordenadasGeograficas>
+					<informacionDeFallecimiento fechaDefallecimiento = "2005-10-30" lugarDefallecimiento = "Oviedo">
+						<cordenadasGeograficas>
+							<latitud>43.38020</latitud>
+							<longitud>-5.86613</longitud>
+							<altitud>232</altitud>
+						</cordenadasGeograficas>
+					</informacionDeFallecimiento>
+					<imagenes>
+						<imagen url = "multimedia/Abuelo_Materno.jpg"></imagen>
+					</imagenes>
+				</datos>
+				<!--Bisabuelo Abuelo Materno-->
+				<persona nombre= "Manuel" apellidos="Gasch Perez" fechaNacimiento="1885-03-28" lugarNacimiento="Oviedo">
+					<datos>
+						<comentariosSobrePersona>Le gustaba el futbol</comentariosSobrePersona>
+						<cordenadasGeograficas>
+							<latitud>43.33722</latitud>
+							<longitud>-5.85685</longitud>
+							<altitud>232</altitud>
+						</cordenadasGeograficas>
+						<informacionDeFallecimiento fechaDefallecimiento = "1965-11-07" lugarDefallecimiento = "Oviedo">
+							<cordenadasGeograficas>
+								<latitud>4.35214</latitud>
+								<longitud>-5.77429</longitud>
+								<altitud>232</altitud>
+							</cordenadasGeograficas>
+						</informacionDeFallecimiento>
+						<imagenes>
+							<imagen url = "multimedia/Bisabuelo_Abuelo_Materno.jpg"></imagen>
+						</imagenes>
+					</datos>
+				</persona>
+				<!--Bisabuela Abuelo Materno-->
+				<persona nombre= "Marta" apellidos="Heiva Garcia" fechaNacimiento="1879-08-07" lugarNacimiento="Oviedo">
+					<datos>
+						<comentariosSobrePersona>Leia mucho</comentariosSobrePersona>
+						<cordenadasGeograficas>
+							<latitud>1</latitud>
+							<longitud>2</longitud>
+							<altitud>3</altitud>
+						</cordenadasGeograficas>
+						<informacionDeFallecimiento fechaDefallecimiento = "1959-12-03" lugarDefallecimiento = "Oviedo">
+							<cordenadasGeograficas>
+								<latitud>43.36919</latitud>
+								<longitud>-5.90326</longitud>
+								<altitud>232</altitud>
+							</cordenadasGeograficas>
+						</informacionDeFallecimiento>
+						<imagenes>
+							<imagen url = "multimedia/Bisabuela_Abuelo_Materno.jpg"></imagen>
+						</imagenes>
+					</datos>
+				</persona>
+            </persona>
+
+            <!--Abuela Materna-->
+            <persona nombre= "Marina" apellidos="Nieto Echevarría" fechaNacimiento="1926-09-06" lugarNacimiento="Oviedo">
+				<datos>
+					<comentariosSobrePersona>Trabajo en una costureria</comentariosSobrePersona>
+					<cordenadasGeograficas>
+						<latitud>43.34894</latitud>
+						<longitud>-5.85197</longitud>
+						<altitud>232</altitud>
+					</cordenadasGeograficas>
+					<informacionDeFallecimiento fechaDefallecimiento = "2001-07-05" lugarDefallecimiento = "Oviedo">
+						<cordenadasGeograficas>
+							<latitud>43.39298</latitud>
+							<longitud>-5.89154</longitud>
+							<altitud>232</altitud>
+						</cordenadasGeograficas>
+					</informacionDeFallecimiento>
+					<imagenes>
+						<imagen url = "multimedia/Abuela_Materna.jpg"></imagen>
+					</imagenes>
+				</datos>
+				<!--Bisabuelo Abuela Materna-->
+				<persona nombre= "Francisco" apellidos="Nieto Gutierrez" fechaNacimiento="1881-04-11" lugarNacimiento="Caceres">
+					<datos>
+						<comentariosSobrePersona>Le gustaba la pesca</comentariosSobrePersona>
+						<cordenadasGeograficas>
+							<latitud>39.47056</latitud>
+							<longitud>-6.37836</longitud>
+							<altitud>232</altitud>
+						</cordenadasGeograficas>
+						<informacionDeFallecimiento fechaDefallecimiento = "1963-07-03" lugarDefallecimiento = "Oviedo">
+							<cordenadasGeograficas>
+								<latitud>43.41038</latitud>
+								<longitud>-5.83424</longitud>
+								<altitud>232</altitud>
+							</cordenadasGeograficas>
+						</informacionDeFallecimiento>
+						<imagenes>
+							<imagen url = "multimedia/Bisabuelo_Abuela_Materna.jpg"></imagen>
+						</imagenes>
+					</datos>
+				</persona>
+				<!--Bisabuela Abuela Materna-->
+				<persona nombre= "Laura" apellidos="Echevarria Lopez" fechaNacimiento="1882-11-05" lugarNacimiento="Bilbao">
+					<datos>
+						<comentariosSobrePersona>Era muy alegre</comentariosSobrePersona>
+						<cordenadasGeograficas>
+							<latitud>43.26155</latitud>
+							<longitud>-2.92945</longitud>
+							<altitud>232</altitud>
+						</cordenadasGeograficas>
+						<informacionDeFallecimiento fechaDefallecimiento = "1960-06-02" lugarDefallecimiento = "Oviedo">
+							<cordenadasGeograficas>
+								<latitud>43.34825</latitud>
+								<longitud>-5.82085</longitud>
+								<altitud>232</altitud>
+							</cordenadasGeograficas>
+						</informacionDeFallecimiento>
+						<imagenes>
+							<imagen url = "multimedia/Bisabuela_Abuela_Materna.jpg"></imagen>
+						</imagenes>
+					</datos>
+				</persona>
+            </persona>
+        </persona>
+    </persona>
+</personas>

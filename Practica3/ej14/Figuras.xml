@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <figures>
 	<figure>
-		<width value="50"/>
-		<height value = "100"/>
-		<color r="100" g="0" b="0" a="1"/>
-	</figure>
-	<figure>
 		<width value="100"/>
 		<height value = "100"/>
-		<color r="200" g="0" b="0" a="1"/>
-	</figure>
-
-	<figure>
-		<width value="200"/>
-		<height value = "100"/>
-		<color r="255" g="0" b="0" a="1"/>
+		<color r="100" g="0" b="0" a="1"/>
 	</figure>
 </figures>
