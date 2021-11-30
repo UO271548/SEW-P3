@@ -27,14 +27,14 @@ main{
     width: 25em;
     margin: 1.5em;
     padding: 0em;
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.326);
     color: black;
 
 }
 
 input[type = "text"]{
     margin-bottom: 0em;
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.326);
     color: black;
     font-size: 3em;
     height: 2em;

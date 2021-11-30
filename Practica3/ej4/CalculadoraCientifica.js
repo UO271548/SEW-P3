@@ -9,6 +9,42 @@ class CalculadoraBasica{
         this.operando1 = "";
         this.operando2 = "";
         this.nuevoOperando = false;
+        document.addEventListener("keypress", (event) =>{
+            switch(event.key){
+                case "1":
+                case "2":
+                case "3":
+                case "4":
+                case "5":
+                case "6":
+                case "7":
+                case "8":
+                case "9":
+                case "0":
+                    this.numero(event.key.toString());
+                    break;
+                case "+":
+                    this.sumar()
+                    break;
+                case "-":
+                    this.restar();
+                    break;
+                case "*":
+                    this.multiplicar();
+                    break;
+                case "/":
+                    this.dividir();
+                    break;
+                case "Enter":
+                    this.calcular();
+                    break;
+                case ".":
+					this.punto();
+					break;
+
+            }
+
+        });
     }
     escribirPantalla(texto){
         if (this.resetearPantalla){
