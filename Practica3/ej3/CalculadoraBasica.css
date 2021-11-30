@@ -51,7 +51,7 @@ input[type = "button"]{
     border-radius: 0.5em;
     font-weight: bold;
 }
-
+/**
 input[type = "button"]:nth-of-type(1){
     background-color: #54545400;
     color: white;
@@ -86,6 +86,7 @@ input[type = "button"]:nth-of-type(16){
     background-color: rgb(228, 57, 57);
     color: black;
 }
+*/
  /* 
 main{
     display: grid;
