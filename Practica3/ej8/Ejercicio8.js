@@ -23,8 +23,8 @@ class Meteorologia {
                 method: 'GET',
                 success: function(datos){
 
-                    var datosCiudad = "<p>";
-                    datosCiudad += "<h2> Datos " + datos.name + "</h2>";
+                    //var datosCiudad = "<p>";
+                    var datosCiudad = "<h2> Datos " + datos.name + "</h2>";
                     
                     datosCiudad += "<p> <img src=\"https://openweathermap.org/img/w/"+ datos.weather[0].icon + ".png\"" + "/>" + "</p>"
                     datosCiudad +="<p>País: " + datos.sys.country + "</p>";
@@ -44,7 +44,7 @@ class Meteorologia {
                     datosCiudad +="<p>Descripción: " + datos.weather[0].description + "</p>";
                     datosCiudad +="<p>Visibilidad: " + datos.visibility + " metros</p>";
                     datosCiudad +="<p>Nubosidad: " + datos.clouds.all + " %</p>"; 
-                    datosCiudad += "</p>"
+                    //datosCiudad += "</p>"
                     var section = document.getElementsByTagName('p')[0];
                     section.innerHTML += datosCiudad;
                 },
