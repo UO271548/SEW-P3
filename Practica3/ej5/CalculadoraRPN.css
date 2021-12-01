@@ -1,9 +1,11 @@
+/*Especificidad: 001*/
 body{
     background-color: white;
     color: black;
     font-family: Arial, sans-serif;
 }
 
+/*Especificidad: 001*/
 h1{
     color: white;
     background-color: black;
@@ -11,6 +13,7 @@ h1{
     
 }
 
+/*Especificidad: 001*/
 h1{
     font-size: 1.5em;
     padding: 1.5em;
@@ -21,6 +24,7 @@ h1{
     font-weight: bold;
   }
 
+/*Especificidad: 001*/
 main{
     display: flex;
     flex-direction: column;
@@ -32,12 +36,13 @@ main{
 
 }
 
+/*Especificidad: 002*/
 ul li{
     list-style: none;
     text-align: right;
 }
 
-
+/*Especificidad: 002*/
 main p{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -46,70 +51,91 @@ main p{
     text-align: center;
 }
 
+/*Especificidad: 011*/
 input[type= "text"]{
     text-align: right;
     background-color: rgba(211, 211, 211, 0.326);
     color: black;
 }
+
+/*Especificidad: 011*/
 input[type = "button"]{
     height: 3em;
 }
 
+/*Especificidad: 021*/
 input[type = "button"]:nth-of-type(22){
     background-color: white;
     color: black;
     font-weight: bold;
 }
+
+/*Especificidad: 021*/
 input[type = "button"]:nth-of-type(23){
     background-color: white;
     color: black;
     font-weight: bold;
 }
+
+/*Especificidad: 021*/
 input[type = "button"]:nth-of-type(24){
     background-color: white;
     color: black;
     font-weight: bold;
 }
 
+/*Especificidad: 021*/
 input[type = "button"]:nth-of-type(27){
     background-color: white;
     color: black;
     font-weight: bold;
 }
+
+/*Especificidad: 021*/
 input[type = "button"]:nth-of-type(28){
     background-color: white;
     color: black;
     font-weight: bold;
 }
+
+/*Especificidad: 021*/
 input[type = "button"]:nth-of-type(29){
     background-color: white;
     color: black;
     font-weight: bold;
 }
 
-
+/*Especificidad: 021*/
 input[type = "button"]:nth-of-type(32){
     background-color: white;
     color: black;
     font-weight: bold;
 }
+
+/*Especificidad: 021*/
 input[type = "button"]:nth-of-type(33){
     background-color: white;
     color: black;
     font-weight: bold;
 }
+
+/*Especificidad: 021*/
 input[type = "button"]:nth-of-type(34){
     background-color: white;
     color: black;
     font-weight: bold;
 }
 
+
+/*Especificidad: 021*/
 input[type = "button"]:nth-of-type(38){
     background-color: white;
     color: black;
     font-weight: bold;
 }
 
+
+/*Especificidad: 001*/
 footer{
     display: block;
     color: white;
