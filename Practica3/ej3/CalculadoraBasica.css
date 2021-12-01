@@ -29,8 +29,8 @@ main{
     width: 25em;
     margin: 1.5em;
     padding: 1em;
-    background-color: black;
-    color: black;
+    background-color: rgb(46, 46, 46);
+    color: white;
 
 }
 
@@ -51,19 +51,19 @@ input[type = "button"]{
     border-radius: 0.5em;
     font-weight: bold;
 }
-/**
+
 input[type = "button"]:nth-of-type(1){
-    background-color: #54545400;
+    background-color: #54545426;
     color: white;
 }
 
 input[type = "button"]:nth-of-type(2){
-    background-color: #54545400;
+    background-color: #54545426;
     color: white;
 }
 
 input[type = "button"]:nth-of-type(3){
-    background-color: #54545400;
+    background-color: #54545426;
     color: white;
 }
 
@@ -86,25 +86,6 @@ input[type = "button"]:nth-of-type(16){
     background-color: rgb(228, 57, 57);
     color: black;
 }
-*/
- /* 
-main{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: (6, 1fr);
-}
-
-input[type = "text"]{
-    grid-column: 1/5;
-    background-color: white;
-}
-
-input[type = "button"]{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 1;
-}
-*/
 
 /*Especificidad: 001*/
 footer{
